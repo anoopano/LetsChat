@@ -11,14 +11,8 @@ const firebase =require("firebase")
 require("firebase/firestore")
 
 firebase.initializeApp ({
-  apiKey: "AIzaSyCl0Bnaq-wm3WFAhXze47YQQ3eJPuIXm_M",
-    authDomain: "im-tutorial-aece7.firebaseapp.com",
-    databaseURL: "https://im-tutorial-aece7.firebaseio.com",
-    projectId: "im-tutorial-aece7",
-    storageBucket: "im-tutorial-aece7.appspot.com",
-    messagingSenderId: "29738718254",
-    appId: "1:29738718254:web:bb2df59a8cdad9945bbbbf"
-})
+  //api key
+  
 const routing =(
   <Router>
     <div id='routing-container'>
